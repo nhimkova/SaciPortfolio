@@ -1,0 +1,95 @@
+body {
+  padding-top: 30px;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px !important;
+}
+
+.jumbotron .jumbo-img{
+	width: 90%;
+}
+
+section{
+	padding-left: 30px;
+	margin-bottom: 30px;
+}
+
+.about {
+	height: 500px;
+} 
+
+.contact {
+	height: 500px;
+} 
+
+.title-wrapper {
+ 	display: table;
+	margin: 0 0 31px;
+	overflow: hidden;
+}
+
+.title-wrapper h2{
+	vertical-align: middle !important;
+	font-size: 20px;
+}
+
+.title-wrapper .div-container {
+	padding-left: 10px;
+	padding-right: 20px;
+	position: relative;
+ 	display: table-cell;
+  	vertical-align: middle;
+  	height: 6px;
+  	width: 100%;	
+}
+
+.title-wrapper .div-container .divider {
+	border-bottom-width: 0px !important;
+	border-top-width: 1px !important;
+	border-style: solid;
+  	border-color: #e0dede;
+	position: relative;
+  	display: block;
+  	width: 100%;
+
+}
+
+.profile-img {
+	width: 50%;
+}
+
+.img-center-fit {
+	object-fit: cover;
+}
+
+.img-top-fit {
+	object-fit: cover;
+	object-position: 0% 0%;
+}
+
+.img-contain {
+	object-fit: contain;
+}
+
+footer{
+	background-color:#333;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-left-width: 0px;
+    padding-right: 0px !important;
+    margin-right: 0px !important;
+    font-size: 20px !important;
+    height: 80px;
+    vertical-align: center;
+
+}
+
+.footer-icons {
+	color: #fff;
+	text-align: right;
+}
+
+.footer-icons a{
+	color: #fff;
+	padding: 8px 8px 8px 8px; 
+}
